@@ -1,0 +1,26 @@
+Testing isolated batch...
+Testing batch replay...
+Testing stream and restart...
+Testing duplicate across stream files...
+{
+  "batch": {
+    "fact_order": 100,
+    "fact_payment": 90,
+    "quarantine": 4,
+    "pipeline_run": 1
+  },
+  "stream": {
+    "fact_order": 100,
+    "fact_payment": 92,
+    "quarantine": 4,
+    "pipeline_run": 3
+  },
+  "redelivery": {
+    "fact_order": 100,
+    "fact_payment": 92,
+    "quarantine": 4,
+    "pipeline_run": 4
+  },
+  "verified_at": "2026-10-30T11:04:56.881395+00:00",
+  "status": "PASS"
+}

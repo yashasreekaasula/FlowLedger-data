@@ -1,0 +1,88 @@
+/tmp/flowledger-airflow/lib/python3.12/site-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+[2026-10-30T07:01:42.991-0400] {dagbag.py:588} INFO - Filling up the DagBag from /workspace/scratch/856a71319b63/FlowLedger/dags
+[2026-10-30T07:01:43.015-0400] {dag.py:4435} INFO - dagrun id: flowledger_reconciliation
+[2026-10-30T07:01:43.024-0400] {dag.py:4451} INFO - created dagrun <DagRun flowledger_reconciliation @ 2026-10-01 00:00:00+00:00: manual__2026-10-01T00:00:00+00:00, state:running, queued_at: None. externally triggered: False>
+[2026-10-30T07:01:43.044-0400] {dag.py:4396} INFO - [DAG TEST] starting task_id=batch_transform_and_load map_index=-1
+[2026-10-30T07:01:43.044-0400] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: flowledger_reconciliation.batch_transform_and_load manual__2026-10-01T00:00:00+00:00 [scheduled]>
+[2026-10-30 07:01:43,083] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flowledger_reconciliation' AIRFLOW_CTX_TASK_ID='batch_transform_and_load' AIRFLOW_CTX_EXECUTION_DATE='2026-10-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-01T00:00:00+00:00'
+[2026-10-30T07:01:43.083-0400] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flowledger_reconciliation' AIRFLOW_CTX_TASK_ID='batch_transform_and_load' AIRFLOW_CTX_EXECUTION_DATE='2026-10-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-01T00:00:00+00:00'
+[2026-10-30T07:01:43.084-0400] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-30 07:01:43,105] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-30T07:01:43.105-0400] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-30 07:01:43,105] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd "$PROJECT_ROOT" && python -m flowledger --root "${FLOWLEDGER_DATA_ROOT:-/opt/flowledger/data}" batch']
+[2026-10-30T07:01:43.105-0400] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd "$PROJECT_ROOT" && python -m flowledger --root "${FLOWLEDGER_DATA_ROOT:-/opt/flowledger/data}" batch']
+[2026-10-30 07:01:43,110] {subprocess.py:99} INFO - Output:
+[2026-10-30T07:01:43.110-0400] {subprocess.py:99} INFO - Output:
+[2026-10-30 07:01:44,887] {subprocess.py:106} INFO - Setting default log level to "WARN".
+[2026-10-30T07:01:44.887-0400] {subprocess.py:106} INFO - Setting default log level to "WARN".
+[2026-10-30 07:01:44,887] {subprocess.py:106} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2026-10-30T07:01:44.887-0400] {subprocess.py:106} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2026-10-30 07:01:45,076] {subprocess.py:106} INFO - 26/10/30 07:01:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-10-30T07:01:45.076-0400] {subprocess.py:106} INFO - 26/10/30 07:01:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-10-30 07:01:45,465] {subprocess.py:106} INFO - 26/10/30 07:01:45 WARN MacAddressUtil: Failed to find a usable hardware address from the network interfaces; using random bytes: c5:f6:91:2e:57:76:28:02
+[2026-10-30T07:01:45.465-0400] {subprocess.py:106} INFO - 26/10/30 07:01:45 WARN MacAddressUtil: Failed to find a usable hardware address from the network interfaces; using random bytes: c5:f6:91:2e:57:76:28:02
+[2026-10-30 07:01:51,978] {subprocess.py:106} INFO - {
+[2026-10-30T07:01:51.978-0400] {subprocess.py:106} INFO - {
+[2026-10-30 07:01:51,978] {subprocess.py:106} INFO -   "run_key": "batch:e3bec0292627d8da1c08e3bd0198971642aa540ca61edc7f40bf9faecf9c5b2d",
+[2026-10-30T07:01:51.978-0400] {subprocess.py:106} INFO -   "run_key": "batch:e3bec0292627d8da1c08e3bd0198971642aa540ca61edc7f40bf9faecf9c5b2d",
+[2026-10-30 07:01:51,978] {subprocess.py:106} INFO -   "mode": "batch",
+[2026-10-30T07:01:51.978-0400] {subprocess.py:106} INFO -   "mode": "batch",
+[2026-10-30 07:01:51,978] {subprocess.py:106} INFO -   "completed_at": "2026-10-30T11:01:03.527252+00:00",
+[2026-10-30T07:01:51.978-0400] {subprocess.py:106} INFO -   "completed_at": "2026-10-30T11:01:03.527252+00:00",
+[2026-10-30 07:01:51,978] {subprocess.py:106} INFO -   "input_rows": 914,
+[2026-10-30T07:01:51.978-0400] {subprocess.py:106} INFO -   "input_rows": 914,
+[2026-10-30 07:01:51,979] {subprocess.py:106} INFO -   "inserted_rows": 900,
+[2026-10-30T07:01:51.979-0400] {subprocess.py:106} INFO -   "inserted_rows": 900,
+[2026-10-30 07:01:51,979] {subprocess.py:106} INFO -   "rejected_rows": 4,
+[2026-10-30T07:01:51.979-0400] {subprocess.py:106} INFO -   "rejected_rows": 4,
+[2026-10-30 07:01:51,979] {subprocess.py:106} INFO -   "duplicate_rows": 10,
+[2026-10-30T07:01:51.979-0400] {subprocess.py:106} INFO -   "duplicate_rows": 10,
+[2026-10-30 07:01:51,979] {subprocess.py:106} INFO -   "duration_seconds": 5.1096,
+[2026-10-30T07:01:51.979-0400] {subprocess.py:106} INFO -   "duration_seconds": 5.1096,
+[2026-10-30 07:01:51,979] {subprocess.py:106} INFO -   "replayed": true
+[2026-10-30T07:01:51.979-0400] {subprocess.py:106} INFO -   "replayed": true
+[2026-10-30 07:01:51,979] {subprocess.py:106} INFO - }
+[2026-10-30T07:01:51.979-0400] {subprocess.py:106} INFO - }
+[2026-10-30 07:01:52,397] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-30T07:01:52.397-0400] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-30T07:01:52.408-0400] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-30T07:01:52.409-0400] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=flowledger_reconciliation, task_id=batch_transform_and_load, run_id=manual__2026-10-01T00:00:00+00:00, execution_date=20261001T000000, start_date=, end_date=20261030T110152
+[2026-10-30T07:01:52.417-0400] {dag.py:4410} INFO - [DAG TEST] end task task_id=batch_transform_and_load map_index=-1
+[2026-10-30T07:01:52.428-0400] {dag.py:4396} INFO - [DAG TEST] starting task_id=validate_warehouse map_index=-1
+[2026-10-30T07:01:52.429-0400] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: flowledger_reconciliation.validate_warehouse manual__2026-10-01T00:00:00+00:00 [scheduled]>
+[2026-10-30 07:01:52,447] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flowledger_reconciliation' AIRFLOW_CTX_TASK_ID='validate_warehouse' AIRFLOW_CTX_EXECUTION_DATE='2026-10-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-01T00:00:00+00:00'
+[2026-10-30T07:01:52.447-0400] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flowledger_reconciliation' AIRFLOW_CTX_TASK_ID='validate_warehouse' AIRFLOW_CTX_EXECUTION_DATE='2026-10-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-01T00:00:00+00:00'
+[2026-10-30T07:01:52.448-0400] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-30 07:01:52,448] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-30T07:01:52.448-0400] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-30 07:01:52,449] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd "$PROJECT_ROOT" && python -m flowledger --root "${FLOWLEDGER_DATA_ROOT:-/opt/flowledger/data}" check']
+[2026-10-30T07:01:52.449-0400] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd "$PROJECT_ROOT" && python -m flowledger --root "${FLOWLEDGER_DATA_ROOT:-/opt/flowledger/data}" check']
+[2026-10-30 07:01:52,453] {subprocess.py:99} INFO - Output:
+[2026-10-30T07:01:52.453-0400] {subprocess.py:99} INFO - Output:
+[2026-10-30 07:01:52,491] {subprocess.py:106} INFO - Warehouse invariants passed
+[2026-10-30T07:01:52.491-0400] {subprocess.py:106} INFO - Warehouse invariants passed
+[2026-10-30 07:01:52,496] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-30T07:01:52.496-0400] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-30T07:01:52.505-0400] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-30T07:01:52.505-0400] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=flowledger_reconciliation, task_id=validate_warehouse, run_id=manual__2026-10-01T00:00:00+00:00, execution_date=20261001T000000, start_date=, end_date=20261030T110152
+[2026-10-30T07:01:52.513-0400] {dag.py:4410} INFO - [DAG TEST] end task task_id=validate_warehouse map_index=-1
+[2026-10-30T07:01:52.521-0400] {dag.py:4396} INFO - [DAG TEST] starting task_id=publish_metrics map_index=-1
+[2026-10-30T07:01:52.521-0400] {dag.py:4399} INFO - [DAG TEST] running task <TaskInstance: flowledger_reconciliation.publish_metrics manual__2026-10-01T00:00:00+00:00 [scheduled]>
+[2026-10-30 07:01:52,534] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flowledger_reconciliation' AIRFLOW_CTX_TASK_ID='publish_metrics' AIRFLOW_CTX_EXECUTION_DATE='2026-10-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-01T00:00:00+00:00'
+[2026-10-30T07:01:52.534-0400] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='flowledger_reconciliation' AIRFLOW_CTX_TASK_ID='publish_metrics' AIRFLOW_CTX_EXECUTION_DATE='2026-10-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-01T00:00:00+00:00'
+[2026-10-30T07:01:52.534-0400] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-30 07:01:52,535] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-30T07:01:52.535-0400] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-10-30 07:01:52,535] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd "$PROJECT_ROOT" && python -m flowledger --root "${FLOWLEDGER_DATA_ROOT:-/opt/flowledger/data}" report']
+[2026-10-30T07:01:52.535-0400] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd "$PROJECT_ROOT" && python -m flowledger --root "${FLOWLEDGER_DATA_ROOT:-/opt/flowledger/data}" report']
+[2026-10-30 07:01:52,539] {subprocess.py:99} INFO - Output:
+[2026-10-30T07:01:52.539-0400] {subprocess.py:99} INFO - Output:
+[2026-10-30 07:01:52,574] {subprocess.py:106} INFO - /workspace/scratch/856a71319b63/FlowLedger/verified-data/reports/dashboard.html
+[2026-10-30T07:01:52.574-0400] {subprocess.py:106} INFO - /workspace/scratch/856a71319b63/FlowLedger/verified-data/reports/dashboard.html
+[2026-10-30 07:01:52,583] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-30T07:01:52.583-0400] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-10-30T07:01:52.592-0400] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-10-30T07:01:52.592-0400] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=flowledger_reconciliation, task_id=publish_metrics, run_id=manual__2026-10-01T00:00:00+00:00, execution_date=20261001T000000, start_date=, end_date=20261030T110152
+[2026-10-30T07:01:52.601-0400] {dag.py:4410} INFO - [DAG TEST] end task task_id=publish_metrics map_index=-1
+[2026-10-30T07:01:52.604-0400] {dagrun.py:854} INFO - Marking run <DagRun flowledger_reconciliation @ 2026-10-01 00:00:00+00:00: manual__2026-10-01T00:00:00+00:00, state:running, queued_at: None. externally triggered: False> successful
+[2026-10-30T07:01:52.604-0400] {dagrun.py:905} INFO - DagRun Finished: dag_id=flowledger_reconciliation, execution_date=2026-10-01 00:00:00+00:00, run_id=manual__2026-10-01T00:00:00+00:00, run_start_date=2026-10-01 00:00:00+00:00, run_end_date=2026-10-30 11:01:52.604444+00:00, run_duration=2545312.604444, state=success, external_trigger=False, run_type=manual, data_interval_start=2026-09-30 00:00:00+00:00, data_interval_end=2026-10-01 00:00:00+00:00, dag_hash=None

@@ -1,0 +1,15 @@
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/30 07:01:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/30 07:01:05 WARN MacAddressUtil: Failed to find a usable hardware address from the network interfaces; using random bytes: 25:37:c7:9a:bc:4d:e8:ee
+{
+  "run_key": "batch:e3bec0292627d8da1c08e3bd0198971642aa540ca61edc7f40bf9faecf9c5b2d",
+  "mode": "batch",
+  "completed_at": "2026-10-30T11:01:03.527252+00:00",
+  "input_rows": 914,
+  "inserted_rows": 900,
+  "rejected_rows": 4,
+  "duplicate_rows": 10,
+  "duration_seconds": 5.1096,
+  "replayed": true
+}

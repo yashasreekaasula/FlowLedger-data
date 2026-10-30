@@ -1,0 +1,41 @@
+[
+  {
+    "id": "d2907cf6-8178-4b06-a4e8-ece2b70d6234",
+    "runId": "835b16f1-f009-4f6f-8edb-c5d58972267d",
+    "name": null,
+    "timestamp": "2026-10-30T11:01:45.204Z",
+    "batchId": 5,
+    "numInputRows": 2,
+    "inputRowsPerSecond": 0.0,
+    "processedRowsPerSecond": 0.5223295899712719,
+    "durationMs": {
+      "addBatch": 2893,
+      "commitOffsets": 46,
+      "getBatch": 44,
+      "latestOffset": 56,
+      "queryPlanning": 600,
+      "triggerExecution": 3828,
+      "walCommit": 84
+    },
+    "stateOperators": [],
+    "sources": [
+      {
+        "description": "FileStreamSource[file:/workspace/scratch/856a71319b63/FlowLedger/verified-data/stream_inbox]",
+        "startOffset": {
+          "logOffset": 4
+        },
+        "endOffset": {
+          "logOffset": 5
+        },
+        "latestOffset": null,
+        "numInputRows": 2,
+        "inputRowsPerSecond": 0.0,
+        "processedRowsPerSecond": 0.5223295899712719
+      }
+    ],
+    "sink": {
+      "description": "ForeachBatchSink",
+      "numOutputRows": -1
+    }
+  }
+]

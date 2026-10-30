@@ -1,0 +1,23 @@
+services:
+  airflow:
+    build: .
+    command: standalone
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/flowledger/dags
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    volumes:
+      - pipeline-data:/opt/flowledger/data
+      - airflow-state:/opt/airflow
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+volumes:
+  pipeline-data:
+  airflow-state:

@@ -1,0 +1,6 @@
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/30 07:01:41 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/30 07:01:42 WARN MacAddressUtil: Failed to find a usable hardware address from the network interfaces; using random bytes: 87:25:d3:f7:27:02:4f:36
+26/10/30 07:01:44 WARN ResolveWriteToStream: spark.sql.adaptive.enabled is not supported in streaming DataFrames/Datasets and will be disabled.
+[Stage 0:>                                                          (0 + 2) / 2]                                                                                {"run_key": "stream-v1:5", "mode": "stream", "completed_at": "2026-10-30T11:01:48.978933+00:00", "input_rows": 1, "inserted_rows": 0, "rejected_rows": 0, "duplicate_rows": 1, "duration_seconds": 0.1119}

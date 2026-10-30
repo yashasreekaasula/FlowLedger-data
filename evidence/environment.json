@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "java": "OpenJDK 17.0.20",
+  "spark": "3.5.7",
+  "airflow": "2.10.5",
+  "os": "Linux",
+  "dataset": "synthetic; no production data",
+  "docker": "not available; not tested"
+}

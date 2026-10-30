@@ -1,0 +1,10 @@
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/30 07:01:13 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/30 07:01:13 WARN MacAddressUtil: Failed to find a usable hardware address from the network interfaces; using random bytes: 59:fa:28:f6:49:91:2c:b7
+26/10/30 07:01:16 WARN ResolveWriteToStream: spark.sql.adaptive.enabled is not supported in streaming DataFrames/Datasets and will be disabled.
+[Stage 0:>                                                          (0 + 2) / 2][Stage 0:=============================>                             (1 + 1) / 2]                                                                                {"run_key": "stream-v1:0", "mode": "stream", "completed_at": "2026-10-30T11:01:20.055063+00:00", "input_rows": 1, "inserted_rows": 1, "rejected_rows": 0, "duplicate_rows": 0, "duration_seconds": 0.1567}
+{"run_key": "stream-v1:1", "mode": "stream", "completed_at": "2026-10-30T11:01:20.683176+00:00", "input_rows": 1, "inserted_rows": 1, "rejected_rows": 0, "duplicate_rows": 0, "duration_seconds": 0.0715}
+{"run_key": "stream-v1:2", "mode": "stream", "completed_at": "2026-10-30T11:01:21.210899+00:00", "input_rows": 1, "inserted_rows": 1, "rejected_rows": 0, "duplicate_rows": 0, "duration_seconds": 0.0653}
+{"run_key": "stream-v1:3", "mode": "stream", "completed_at": "2026-10-30T11:01:21.678871+00:00", "input_rows": 1, "inserted_rows": 1, "rejected_rows": 0, "duplicate_rows": 0, "duration_seconds": 0.0634}
+{"run_key": "stream-v1:4", "mode": "stream", "completed_at": "2026-10-30T11:01:22.114925+00:00", "input_rows": 1, "inserted_rows": 1, "rejected_rows": 0, "duplicate_rows": 0, "duration_seconds": 0.0627}

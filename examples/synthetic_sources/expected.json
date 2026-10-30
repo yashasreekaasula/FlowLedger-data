@@ -1,0 +1,7 @@
+{
+  "synthetic": true,
+  "orders": 1000,
+  "unique_valid_payments": 900,
+  "invalid_rows": 4,
+  "duplicate_rows": 10
+}

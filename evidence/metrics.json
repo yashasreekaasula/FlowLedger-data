@@ -1,0 +1,1148 @@
+{
+  "generated_at": "2026-10-30T11:01:52.573786+00:00",
+  "summary": {
+    "orders": 1000,
+    "payments": 905,
+    "quarantined": 4,
+    "exceptions": 213,
+    "revenue_inr": 4224753.0
+  },
+  "tables": {
+    "Reconciliation exceptions": [
+      {
+        "order_id": "O0000850",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 999300,
+        "paid_cents": 0,
+        "difference_cents": -999300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000940",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 998100,
+        "paid_cents": 0,
+        "difference_cents": -998100,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000080",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 969600,
+        "paid_cents": 0,
+        "difference_cents": -969600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000540",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 968700,
+        "paid_cents": 0,
+        "difference_cents": -968700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000247",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 963000,
+        "paid_cents": 0,
+        "difference_cents": -963000,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000429",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 959700,
+        "paid_cents": 0,
+        "difference_cents": -959700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000182",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 958600,
+        "paid_cents": 0,
+        "difference_cents": -958600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000975",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 942300,
+        "paid_cents": 0,
+        "difference_cents": -942300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000160",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 924500,
+        "paid_cents": 0,
+        "difference_cents": -924500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000741",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 914700,
+        "paid_cents": 0,
+        "difference_cents": -914700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000630",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 907900,
+        "paid_cents": 0,
+        "difference_cents": -907900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000830",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 907500,
+        "paid_cents": 0,
+        "difference_cents": -907500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000580",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 902800,
+        "paid_cents": 0,
+        "difference_cents": -902800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000793",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 901000,
+        "paid_cents": 0,
+        "difference_cents": -901000,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000442",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 900400,
+        "paid_cents": 0,
+        "difference_cents": -900400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000676",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 886900,
+        "paid_cents": 0,
+        "difference_cents": -886900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000410",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 872700,
+        "paid_cents": 0,
+        "difference_cents": -872700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000840",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 856900,
+        "paid_cents": 0,
+        "difference_cents": -856900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000240",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 848200,
+        "paid_cents": 0,
+        "difference_cents": -848200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000624",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 847200,
+        "paid_cents": 0,
+        "difference_cents": -847200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000950",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 837900,
+        "paid_cents": 0,
+        "difference_cents": -837900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000590",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 833800,
+        "paid_cents": 0,
+        "difference_cents": -833800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000234",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 832100,
+        "paid_cents": 0,
+        "difference_cents": -832100,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000312",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 830300,
+        "paid_cents": 0,
+        "difference_cents": -830300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000507",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 822700,
+        "paid_cents": 0,
+        "difference_cents": -822700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000325",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 816700,
+        "paid_cents": 0,
+        "difference_cents": -816700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000195",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 806700,
+        "paid_cents": 0,
+        "difference_cents": -806700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000760",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 785800,
+        "paid_cents": 0,
+        "difference_cents": -785800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000710",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 785600,
+        "paid_cents": 0,
+        "difference_cents": -785600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000930",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 780700,
+        "paid_cents": 0,
+        "difference_cents": -780700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000767",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 778000,
+        "paid_cents": 0,
+        "difference_cents": -778000,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000819",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 770500,
+        "paid_cents": 0,
+        "difference_cents": -770500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000897",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 768700,
+        "paid_cents": 0,
+        "difference_cents": -768700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000637",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 763300,
+        "paid_cents": 0,
+        "difference_cents": -763300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000500",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 762500,
+        "paid_cents": 0,
+        "difference_cents": -762500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000700",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 756900,
+        "paid_cents": 0,
+        "difference_cents": -756900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000370",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 737900,
+        "paid_cents": 0,
+        "difference_cents": -737900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000820",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 735400,
+        "paid_cents": 0,
+        "difference_cents": -735400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000330",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 721800,
+        "paid_cents": 0,
+        "difference_cents": -721800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000949",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 719800,
+        "paid_cents": 0,
+        "difference_cents": -719800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000494",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 707400,
+        "paid_cents": 0,
+        "difference_cents": -707400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000320",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 704800,
+        "paid_cents": 0,
+        "difference_cents": -704800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000689",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 702200,
+        "paid_cents": 0,
+        "difference_cents": -702200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000680",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 700700,
+        "paid_cents": 0,
+        "difference_cents": -700700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000450",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 693200,
+        "paid_cents": 0,
+        "difference_cents": -693200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000220",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 690300,
+        "paid_cents": 0,
+        "difference_cents": -690300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000364",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 689600,
+        "paid_cents": 0,
+        "difference_cents": -689600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000790",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 683600,
+        "paid_cents": 0,
+        "difference_cents": -683600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000360",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 681500,
+        "paid_cents": 0,
+        "difference_cents": -681500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000350",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 681100,
+        "paid_cents": 0,
+        "difference_cents": -681100,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000120",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 679900,
+        "paid_cents": 0,
+        "difference_cents": -679900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000400",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 674700,
+        "paid_cents": 0,
+        "difference_cents": -674700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000832",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 673700,
+        "paid_cents": 0,
+        "difference_cents": -673700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000611",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 669500,
+        "paid_cents": 0,
+        "difference_cents": -669500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000150",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 668300,
+        "paid_cents": 0,
+        "difference_cents": -668300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000480",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 662700,
+        "paid_cents": 0,
+        "difference_cents": -662700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000273",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 655200,
+        "paid_cents": 0,
+        "difference_cents": -655200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000610",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 651300,
+        "paid_cents": 0,
+        "difference_cents": -651300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000280",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 643500,
+        "paid_cents": 0,
+        "difference_cents": -643500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000117",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 640500,
+        "paid_cents": 0,
+        "difference_cents": -640500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000520",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 638300,
+        "paid_cents": 0,
+        "difference_cents": -638300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000260",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 634200,
+        "paid_cents": 0,
+        "difference_cents": -634200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000640",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 631200,
+        "paid_cents": 0,
+        "difference_cents": -631200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000754",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 620400,
+        "paid_cents": 0,
+        "difference_cents": -620400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000403",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 613800,
+        "paid_cents": 0,
+        "difference_cents": -613800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000377",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 610700,
+        "paid_cents": 0,
+        "difference_cents": -610700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000960",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 609600,
+        "paid_cents": 0,
+        "difference_cents": -609600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000455",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 607800,
+        "paid_cents": 0,
+        "difference_cents": -607800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000065",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 606400,
+        "paid_cents": 0,
+        "difference_cents": -606400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000715",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 4",
+        "region": "East",
+        "expected_cents": 604700,
+        "paid_cents": 0,
+        "difference_cents": -604700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000770",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 597200,
+        "paid_cents": 0,
+        "difference_cents": -597200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000156",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 588900,
+        "paid_cents": 0,
+        "difference_cents": -588900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000070",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 578900,
+        "paid_cents": 0,
+        "difference_cents": -578900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000380",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 568900,
+        "paid_cents": 0,
+        "difference_cents": -568900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000936",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 560800,
+        "paid_cents": 0,
+        "difference_cents": -560800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000208",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 558900,
+        "paid_cents": 0,
+        "difference_cents": -558900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000910",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 558700,
+        "paid_cents": 0,
+        "difference_cents": -558700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000560",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 550400,
+        "paid_cents": 0,
+        "difference_cents": -550400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000013",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 549800,
+        "paid_cents": 0,
+        "difference_cents": -549800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000169",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 2",
+        "region": "North",
+        "expected_cents": 547400,
+        "paid_cents": 0,
+        "difference_cents": -547400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000300",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 542900,
+        "paid_cents": 0,
+        "difference_cents": -542900,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000988",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 541600,
+        "paid_cents": 0,
+        "difference_cents": -541600,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000720",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 534800,
+        "paid_cents": 0,
+        "difference_cents": -534800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000890",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 532000,
+        "paid_cents": 0,
+        "difference_cents": -532000,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000806",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 518300,
+        "paid_cents": 0,
+        "difference_cents": -518300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000570",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 516800,
+        "paid_cents": 0,
+        "difference_cents": -516800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000780",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 515000,
+        "paid_cents": 0,
+        "difference_cents": -515000,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000286",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 514300,
+        "paid_cents": 0,
+        "difference_cents": -514300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000730",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 512400,
+        "paid_cents": 0,
+        "difference_cents": -512400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000490",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 510200,
+        "paid_cents": 0,
+        "difference_cents": -510200,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000060",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 508400,
+        "paid_cents": 0,
+        "difference_cents": -508400,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000598",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 505700,
+        "paid_cents": 0,
+        "difference_cents": -505700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000620",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 505500,
+        "paid_cents": 0,
+        "difference_cents": -505500,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000546",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 500700,
+        "paid_cents": 0,
+        "difference_cents": -500700,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000416",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 499800,
+        "paid_cents": 0,
+        "difference_cents": -499800,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000740",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 492300,
+        "paid_cents": 0,
+        "difference_cents": -492300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000870",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 483300,
+        "paid_cents": 0,
+        "difference_cents": -483300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000270",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 3",
+        "region": "West",
+        "expected_cents": 478000,
+        "paid_cents": 0,
+        "difference_cents": -478000,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000100",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 473300,
+        "paid_cents": 0,
+        "difference_cents": -473300,
+        "reconciliation_status": "UNPAID"
+      },
+      {
+        "order_id": "O0000880",
+        "order_date": "2026-10-01",
+        "merchant_name": "Demo Merchant 1",
+        "region": "South",
+        "expected_cents": 472800,
+        "paid_cents": 0,
+        "difference_cents": -472800,
+        "reconciliation_status": "UNPAID"
+      }
+    ],
+    "Revenue by event date and region": [
+      {
+        "event_date": "2026-10-01",
+        "region": "East",
+        "revenue_inr": 1179570.0,
+        "payment_attempts": 250,
+        "failure_pct": 7.6
+      },
+      {
+        "event_date": "2026-10-01",
+        "region": "North",
+        "revenue_inr": 1196315.0,
+        "payment_attempts": 250,
+        "failure_pct": 7.6
+      },
+      {
+        "event_date": "2026-10-01",
+        "region": "South",
+        "revenue_inr": 915521.0,
+        "payment_attempts": 200,
+        "failure_pct": 8.0
+      },
+      {
+        "event_date": "2026-10-01",
+        "region": "West",
+        "revenue_inr": 901467.0,
+        "payment_attempts": 200,
+        "failure_pct": 7.5
+      },
+      {
+        "event_date": "2026-10-30",
+        "region": "South",
+        "revenue_inr": 17770.0,
+        "payment_attempts": 3,
+        "failure_pct": 0.0
+      },
+      {
+        "event_date": "2026-10-30",
+        "region": "West",
+        "revenue_inr": 14110.0,
+        "payment_attempts": 2,
+        "failure_pct": 0.0
+      }
+    ],
+    "Committed pipeline runs": [
+      {
+        "run_key": "stream-v1:5",
+        "mode": "stream",
+        "completed_at": "2026-10-30T11:01:48.978933+00:00",
+        "input_rows": 1,
+        "inserted_rows": 0,
+        "rejected_rows": 0,
+        "duplicate_rows": 1,
+        "duration_seconds": 0.1119
+      },
+      {
+        "run_key": "stream-v1:4",
+        "mode": "stream",
+        "completed_at": "2026-10-30T11:01:22.114925+00:00",
+        "input_rows": 1,
+        "inserted_rows": 1,
+        "rejected_rows": 0,
+        "duplicate_rows": 0,
+        "duration_seconds": 0.0627
+      },
+      {
+        "run_key": "stream-v1:3",
+        "mode": "stream",
+        "completed_at": "2026-10-30T11:01:21.678871+00:00",
+        "input_rows": 1,
+        "inserted_rows": 1,
+        "rejected_rows": 0,
+        "duplicate_rows": 0,
+        "duration_seconds": 0.0634
+      },
+      {
+        "run_key": "stream-v1:2",
+        "mode": "stream",
+        "completed_at": "2026-10-30T11:01:21.210899+00:00",
+        "input_rows": 1,
+        "inserted_rows": 1,
+        "rejected_rows": 0,
+        "duplicate_rows": 0,
+        "duration_seconds": 0.0653
+      },
+      {
+        "run_key": "stream-v1:1",
+        "mode": "stream",
+        "completed_at": "2026-10-30T11:01:20.683176+00:00",
+        "input_rows": 1,
+        "inserted_rows": 1,
+        "rejected_rows": 0,
+        "duplicate_rows": 0,
+        "duration_seconds": 0.0715
+      },
+      {
+        "run_key": "stream-v1:0",
+        "mode": "stream",
+        "completed_at": "2026-10-30T11:01:20.055063+00:00",
+        "input_rows": 1,
+        "inserted_rows": 1,
+        "rejected_rows": 0,
+        "duplicate_rows": 0,
+        "duration_seconds": 0.1567
+      },
+      {
+        "run_key": "batch:e3bec0292627d8da1c08e3bd0198971642aa540ca61edc7f40bf9faecf9c5b2d",
+        "mode": "batch",
+        "completed_at": "2026-10-30T11:01:03.527252+00:00",
+        "input_rows": 914,
+        "inserted_rows": 900,
+        "rejected_rows": 4,
+        "duplicate_rows": 10,
+        "duration_seconds": 5.1096
+      }
+    ],
+    "Quarantine reasons": [
+      {
+        "reason": "invalid_amount",
+        "records": 1
+      },
+      {
+        "reason": "invalid_timestamp",
+        "records": 1
+      },
+      {
+        "reason": "malformed_json",
+        "records": 1
+      },
+      {
+        "reason": "unknown_order",
+        "records": 1
+      }
+    ]
+  }
+}
